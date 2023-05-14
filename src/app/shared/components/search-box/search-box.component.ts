@@ -17,7 +17,6 @@ export class SearchBoxComponent {
 
 
   emitText(value: string): void{
-    console.log(value);
     this.onValue.emit(value);
   }
 }
